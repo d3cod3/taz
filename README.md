@@ -13,4 +13,4 @@ Hardware parts list:
 
 And if your planning to mount the device under the sky:
 
-4 - IP67 Weatherproof Enclosure [ [es.farnell.com](https://es.farnell.com/openh-io/rk-88-001a-2g/ip67-weatherproof-enclosure-deep/dp/2830062?st=Rubicon%20Starter%20Kit) ]
+4 - Rubicon IP67 Weatherproof Enclosure [ [es.farnell.com](https://es.farnell.com/openh-io/rk-88-001a-2g/ip67-weatherproof-enclosure-deep/dp/2830062?st=Rubicon%20Starter%20Kit) ]
