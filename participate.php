@@ -33,7 +33,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
               if (isset($_POST['latitude']) && isset($_POST['longitude']) && isset($_POST['altitude']) && isset($_POST['angle'])) {
                 $localFile = "data/" . $filename;
                 move_uploaded_file($_FILES["mule_content_data"]["tmp_name"], $localFile);
-                \D3COD3\MULEDB::MULEADDData($localFile,floatval($_POST['latitude']),floatval($_POST['longitude']),floatval($_POST['altitude']),floatval($_POST['angle']));
+                \D3COD3\MULEDB::MULEADDData($localFile,$_POST['latitude'],floatval($_POST['longitude']),floatval($_POST['altitude']),floatval($_POST['angle']));
                 echo "Data was uploaded successfully.";
               }else{
                 echo "Error: There was a problem with POST data.";
